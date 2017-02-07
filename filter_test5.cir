@@ -1,12 +1,13 @@
 *Butterworth BPF via LPF
 Vs 1 0 AC 5
 Rs 1 2 50k
-C1 2 0 .24nF
-Lp1 2 0 5.09e-4
+C1 2 0 2.4e-10
+Lp1 2 0 .00051
 L1 2 3 1.47
-Cs1 3 4 .166p
-C2 4 0 .55nF
+Cs1 3 4 8.33e-14
+C2 4 0 5.5e-10
 Lp2 4 0 2.23e-4
 L2 4 5 .61
-Cs2 5 6 .201p
+Cs2 5 6 2.01e-13
 RL 6 0 50K
+*the graph now only has one peak.
